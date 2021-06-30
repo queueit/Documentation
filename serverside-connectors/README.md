@@ -44,16 +44,18 @@ If the timestamp or hash is invalid, the user is send back to the queue.
 The KnownUser validation must be done on *all requests except requests for static and cached pages, resources like images, css files and ...*. 
 So, if you add the KnownUser validation logic to a central place like in Startup.cs, then be sure that the Triggers only fire on page requests (including ajax requests) and not on e.g. image.
 
-Click link below to find example code for your webserver:
+Click link below to navigate to relevant repository:
 
-- IIS (ASP.NET)
-- IIS, Kerstel (ASP.NET Core)
-- Tomcat or other Servlet compatible webserver (Java)
-- Apache as application (PHP)
-- Apache as load balancer (Lua)
-- Rails (Ruby)
-- Django (Python)
-- NGINX (Lua)
+- [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
+- [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
+- [Tomcat or other Servlet compatible webserver (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Apache as application (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
+- [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
+- [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
+- [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
+- [Django (Python)](https://github.com/queueit/KnownUser.V3.Python)
+- [Node.js (JavaScript)](https://github.com/queueit/KnownUser.V3.Javascript)
+
 
 ### Protecting ajax calls
 If you need to protect AJAX calls beside page loads you need to add the below JavaScript tags to your pages:
@@ -78,13 +80,14 @@ If your application server (maybe due to security reasons) is not allowed to do 
 2. Use an internal gateway server to download the configuration file and save to application server
 3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources.
 
-The following are examples of how to specify the configuration in code:
+Click a link below to navigate to relevant repository to see how to specify the configuration in code:
 
-- IIS (ASP.NET)
-- IIS, Kerstel (ASP.NET Core)
-- Tomcat or other Servlet compatible webserver (Java)
-- Apache as application (PHP)
-- Apache as load balancer (Lua)
-- Rails (Ruby)
-- Django (Python)
-- NGINX (Lua)
+- [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
+- [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
+- [Tomcat or other Servlet compatible webserver (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Apache as application (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
+- [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
+- [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
+- [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
+- [Django (Python)](https://github.com/queueit/KnownUser.V3.Python)
+- [Node.js (JavaScript)](https://github.com/queueit/KnownUser.V3.Javascript)
