@@ -48,7 +48,7 @@ Click a link below to navigate to relevant repository to get started:
 
 - [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
 - [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Tomcat, GlassFish or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
 - [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
 - [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
@@ -83,7 +83,7 @@ Click a link below to navigate to relevant repository to see how to specify the 
 
 - [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
 - [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat, GlassFish or other Servlet compatible web servers (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Tomcat, GlassFish or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
 - [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
 - [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
