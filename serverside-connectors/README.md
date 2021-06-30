@@ -1,5 +1,5 @@
 # Queue-it server-side connectors (KnownUser.V3 SDKs)
-Queue-it's connector SDKs are used to ensure that end users cannot bypass the queue by adding a server-side integration to your webserver.
+Queue-it's connector SDKs are used to ensure that end users cannot bypass the queue by adding a server-side integration to your web server.
 
 ## Introduction
 When a user is redirected back from the queue to your website, the queue engine can attach a query string parameter (`queueittoken`) containing some information about the user.
@@ -48,8 +48,8 @@ Click a link below to navigate to relevant repository to get started:
 
 - [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
 - [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat or other Servlet compatible webserver (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
-- [Apache as application (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
+- [Tomcat or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
 - [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
@@ -83,8 +83,8 @@ Click a link below to navigate to relevant repository to see how to specify the 
 
 - [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
 - [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat or other Servlet compatible webserver (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
-- [Apache as application (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
+- [Tomcat, GlassFish or other Servlet compatible web servers (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
 - [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
 - [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
