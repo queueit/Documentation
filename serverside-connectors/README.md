@@ -27,13 +27,13 @@ To validate that the current user is allowed to enter your website (has been thr
  1. Providing the queue configuration to the KnownUser validation
  2. Validate the `queueittoken` and store a session cookie
 
-### 1. Providing the queue configuration
-The recommended way is to use the Go Queue-it self-service portal to setup the configuration. 
-The configuration specifies a set of Triggers and Actions. A Trigger is an expression matching one, more or all URLs on your website. 
+### 1. Providing the integration configuration
+The recommended way is to use the Go Queue-it self-service portal to setup the configuration. The configuration specifies a set of Triggers and Actions. A Trigger is an expression matching one, more or all URLs on your website. 
 When a user enter your website and the URL matches a Trigger-expression the corresponding Action will be triggered. 
 The Action specifies which queue the users should be sent to. 
 In this way you can specify which queue(s) should protect which page(s) on the fly without changing the server-side integration.
-More details can be found under [Documentation](https://github.com/queueit/Documentation/blob/master/Documentation/)
+
+More details on getting that configuration can be found [here](https://github.com/queueit/Documentation/blob/master/serverside-connector/integration-config)
 
 ### 2. Validate the `queueittoken` and store a session cookie
 To validate that the user has been through the queue, use the `KnownUser.ValidateRequestByIntegrationConfig()` method. 
