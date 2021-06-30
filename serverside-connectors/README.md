@@ -33,7 +33,7 @@ When a user enter your website and the URL matches a Trigger-expression the corr
 The Action specifies which queue the users should be sent to. 
 In this way you can specify which queue(s) should protect which page(s) on the fly without changing the server-side integration.
 
-More details on getting that configuration can be found [here](https://github.com/queueit/Documentation/blob/master/serverside-connector/integration-config)
+More details on getting that configuration can be found [here](https://github.com/queueit/Documentation/tree/main/serverside-connectors/integration-config)
 
 ### 2. Validate the `queueittoken` and store a session cookie
 To validate that the user has been through the queue, use the `KnownUser.ValidateRequestByIntegrationConfig()` method. 
