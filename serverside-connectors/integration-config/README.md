@@ -8,7 +8,7 @@ These Triggers and Actions are specified in the Go Queue-it self-service portal.
 There are 3 possible ways you can retrieve the integration config information and provide it for the Known User SDK:
 
 ### 1. Time based pulling
-![Configuration Provider flow](https://github.com/queueit/Documentation/blob/master/serverside-connector/integration-config/ConfigProviderExample.png)
+![Configuration Provider flow](https://github.com/queueit/Documentation/blob/main/serverside-connectors/integration-config/ConfigProviderExample.png)
 
 In this method, you would have a long running tasks retrieving the latest version of published integration with a sepecified time interval from Queue-it repository with the address **https://[your-customer-id].queue-it.net/status/integrationconfig/secure/[your-customer-id]** then cache and reuse the retrieved value until the next interval. 
 
