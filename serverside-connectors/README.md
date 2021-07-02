@@ -35,6 +35,14 @@ In this way you can specify which queue(s) should protect which page(s) on the f
 
 More details on getting that configuration can be found [here](https://github.com/queueit/Documentation/tree/main/serverside-connectors/integration-config)
 
+_Alternatives_
+
+If your application server is not allowed to do external GET requests (maybe due to security reasons), then you have three options:
+
+1. Manually download the configuration file from Queue-it Go self-service portal, save it on your application server and load it from local disk.
+2. Use an internal gateway server to download the configuration file and save to application server.
+3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources. **For this option please visit specific repository to find example code (inline queue configuration)**.
+
 ### 2. Validate the `queueittoken` and store a session cookie
 To validate that the user has been through the queue, use the `KnownUser.ValidateRequestByIntegrationConfig()` method. 
 This call will validate the timestamp and hash and if valid create a "QueueITAccepted-SDFrts345E-V3_[WaitingRoomId]" cookie with a TTL as specified in the configuration.
@@ -57,12 +65,6 @@ If you need to protect AJAX calls beside page loads you need to add the below Ja
 </script>
 ```
 
-### Alternative Implementation (queue configuration)
-If your application server is not allowed to do external GET requests (maybe due to security reasons), then you have three options:
-
-1. Manually download the configuration file from Queue-it Go self-service portal, save it on your application server and load it from local disk.
-2. Use an internal gateway server to download the configuration file and save to application server.
-3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources.  NOTE: For this option please visit specific repository to find example code.
 
 ## Getting started
 Click a link below to navigate to relevant repository to get started:
