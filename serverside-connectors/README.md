@@ -67,12 +67,11 @@ If your application server is not allowed to do external GET requests (maybe due
 ## Getting started
 Click a link below to navigate to relevant repository to get started:
 
-- [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
-- [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat, GlassFish or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
-- [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
-- [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
-- [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
-- [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
-- [Django (Python)](https://github.com/queueit/KnownUser.V3.Python)
-- [Node.js (JavaScript)](https://github.com/queueit/KnownUser.V3.Javascript)
+- [ASP.NET (IIS)](https://github.com/queueit/KnownUser.V3.ASPNET)
+- [ASP.NET Core (IIS, Kerstel)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
+- [Java (Tomcat, GlassFish or other Servlet compatible web server)](https://github.com/queueit/KnownUser.V3.JAVA)
+- [PHP](https://github.com/queueit/KnownUser.V3.PHP)
+- [Lua (Apache, NGINX)](https://github.com/queueit/KnownUser.V3.Lua)
+- [Ruby (Rails)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
+- [Python (Django)](https://github.com/queueit/KnownUser.V3.Python)
+- [JavaScript (Node.js/Express)](https://github.com/queueit/KnownUser.V3.Javascript)
