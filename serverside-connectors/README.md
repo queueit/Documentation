@@ -44,18 +44,6 @@ If the timestamp or hash is invalid, the user is send back to the queue.
 The KnownUser validation must be done on *all requests except requests for static and cached pages, resources like images, css files and ...*. 
 So, if you add the KnownUser validation logic to a central place like in Startup.cs, then be sure that the configured Integration Triggers only fire on page requests (including ajax requests) and not on e.g. images.
 
-Click a link below to navigate to relevant repository to get started:
-
-- [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
-- [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Tomcat, GlassFish or other Servlet compatible web server (Java)](https://github.com/queueit/KnownUser.V3.JAVA)
-- [Apache as web server (PHP)](https://github.com/queueit/KnownUser.V3.PHP)
-- [Apache as load balancer (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
-- [NGINX (Lua)](https://github.com/queueit/KnownUser.V3.Lua)
-- [Rails (Ruby)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
-- [Django (Python)](https://github.com/queueit/KnownUser.V3.Python)
-- [Node.js (JavaScript)](https://github.com/queueit/KnownUser.V3.Javascript)
-
 ### Protecting ajax calls
 If you need to protect AJAX calls beside page loads you need to add the below JavaScript tags to your pages:
 ```
@@ -69,17 +57,15 @@ If you need to protect AJAX calls beside page loads you need to add the below Ja
 </script>
 ```
 
-## Alternative Implementation
-
-### Queue configuration
-
+### Alternative Implementation (queue configuration)
 If your application server is not allowed to do external GET requests (maybe due to security reasons), then you have three options:
 
 1. Manually download the configuration file from Queue-it Go self-service portal, save it on your application server and load it from local disk.
 2. Use an internal gateway server to download the configuration file and save to application server.
-3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources.
+3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources.  NOTE: For this option please visit specific repository to find example code.
 
-Click a link below to navigate to relevant repository to see how to specify the configuration in code (option no.3):
+## Getting started
+Click a link below to navigate to relevant repository to get started:
 
 - [IIS (ASP.NET)](https://github.com/queueit/KnownUser.V3.ASPNET)
 - [IIS, Kerstel (ASP.NET Core)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
