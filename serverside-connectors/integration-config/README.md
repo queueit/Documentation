@@ -19,7 +19,7 @@ The push performed when you publish your latest version from the Go Queue-it sel
 - 1st step is to hex-decode the "integrationInfo" field to get the integration configuration. 
 - 2nd step is to verify the authenticity of the request performing a SHA256 hashing of the "integrationInfo" field (the orginal hex-encoded field) using your secret key and then comparing the result with the "hash" field (if identical the request is authentic)
 
-Example C# below
+<details><summary>Example using C#</summary>
 
 ```c#
 /* format of recieved data
@@ -71,6 +71,7 @@ public static string ConvertHexToString(string hexString)
     return sb.ToString();
 }
 ```
+</details>
 
 ## 3. Manually updating integration configuration
 In this method, after changing and publishing your configuration using the Go Queue-it self-service portal, you are able to download the file and then manually copy and paste it to your infrastructure. You can find your configuration file here **https://[your-customer-id].queue-it.net/status/integrationconfig/[your-customer-id]** or via secure link (*) **https://[your-customer-id].queue-it.net/status/integrationconfig/secure/[your-customer-id]** after a successful publish.
