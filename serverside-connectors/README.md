@@ -72,7 +72,7 @@ If you need to protect AJAX calls beside page loads you need to add the below Ja
 Click a link below to navigate to relevant repository to get started:
 
 - [ASP.NET (IIS)](https://github.com/queueit/KnownUser.V3.ASPNET)
-- [ASP.NET Core (IIS, Kerstel)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
+- [ASP.NET Core (IIS, Kerstrel)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
 - [Java (Tomcat, GlassFish or other Servlet compatible web server)](https://github.com/queueit/KnownUser.V3.JAVA)
 - [PHP](https://github.com/queueit/KnownUser.V3.PHP)
 - [Lua (Apache, NGINX)](https://github.com/queueit/KnownUser.V3.Lua)
