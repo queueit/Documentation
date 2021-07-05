@@ -31,16 +31,18 @@ To validate that the current user is allowed to enter your website (has been thr
 The recommended way is to use the Go Queue-it self-service portal to setup the configuration. The configuration specifies a set of Triggers and Actions. A Trigger is an expression matching one, more or all URLs on your website. 
 When a user enter your website and the URL matches a Trigger-expression the corresponding Action will be triggered. 
 The Action specifies which queue the users should be sent to. 
-In this way you can specify which queue(s) should protect which page(s) on the fly without changing the server-side integration.
+In this way you can specify which queue(s) should protect which page(s) on the fly without changing the server-side integration. 
 
-More details on getting that configuration can be found [here](https://github.com/queueit/Documentation/tree/main/serverside-connectors/integration-config)
+If you want to know more about how Triggers and Actions work then go [here](https://github.com/queueit/Documentation/tree/main/serverside-connectors/integration-actions)
+
+Details on getting integration configuration can be found [here](https://github.com/queueit/Documentation/tree/main/serverside-connectors/integration-config)
 
 _Alternatives_
 
 If your application server is not allowed to do external GET requests (maybe due to security reasons), then you have three options:
 
-1. Manually download the configuration file from Queue-it Go self-service portal, save it on your application server and load it from local disk.
-2. Use an internal gateway server to download the configuration file and save to application server.
+1. Manually download the integration configuration file from Queue-it Go self-service portal, save it on your application server and load it from local disk.
+2. Use an internal gateway server to download the integration configuration file and save to application server.
 3. Specify the configuration in code without using the Trigger/Action paradigm. In this case it is important *only to queue-up page requests* and not requests for resources. **For this option please visit specific repository to find example code (inline queue configuration)**.
 
 ### 2. Validate the `queueittoken` and store a session cookie
