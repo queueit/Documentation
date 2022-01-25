@@ -21,6 +21,19 @@ The high level logic is as follows:
  5. The validation method validates the `queueittoken` and creates a Queue-it session cookie.
  6. The user browses to a new page and the Queue-it session cookie will let him go there without queuing again.
 
+## Protecting ajax calls
+If you need to protect AJAX calls beside page loads you need to add the below JavaScript tags to your pages:
+```
+<script type="text/javascript" src="//static.queue-it.net/script/queueclient.min.js"></script>
+<script
+  data-queueit-intercept-domain="{YOUR_CURRENT_DOMAIN}"
+  data-queueit-intercept="true"
+  data-queueit-c="{YOUR_CUSTOMER_ID}"
+  type="text/javascript"
+  src="//static.queue-it.net/script/queueconfigloader.min.js">
+</script>
+```
+
 ## Getting started
 Click a link below to navigate to relevant repository to get started:
 
