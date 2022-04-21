@@ -12,7 +12,7 @@ The most important fields of the `queueittoken` are:
 
 The high level logic is as follows:
 
-![The KnownUser validation flow](https://github.com/queueit/Documentation/blob/main/serverside-connectors/connector-sequence-v4.png)
+![The KnownUser validation flow](https://github.com/queueit/Documentation/blob/main/serverside-connectors-v4/connector-sequence-v4.png)
 
  1. User requests a page on your server
  2. The validation method sees that user has no Queue-it session cookie and no `queueittoken` and sends him to the correct waitingroom with a valid `enqueuetoken` based on the configuration.
