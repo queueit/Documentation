@@ -17,7 +17,7 @@ The high level logic is as follows:
  1. User requests a page on your server
  2. The validation method sees that user has no Queue-it session cookie and no `queueittoken` and sends him to the correct waitingroom with a valid `enqueuetoken` based on the configuration.
  3. User waits in the queue
- 4. User is redirected back to your website, now with a `queueittoken`
+ 4. User is navigated back to your website, now with a `queueittoken`
  5. The validation method validates the `queueittoken` and creates a Queue-it session cookie
  6. The user browses to a new page and the Queue-it session cookie will let him go there without queuing again
 
