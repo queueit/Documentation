@@ -1,4 +1,4 @@
-# Queue-it server-side connectors (KnownUser.V3 SDKs)
+# Queue-it server-side connectors (KnownUser.V4 SDKs)
 Queue-it's connector SDKs are used to ensure that end users cannot bypass the queue by adding a server-side integration to your web server.
 
 ## Introduction
