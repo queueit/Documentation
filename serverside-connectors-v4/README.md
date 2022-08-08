@@ -69,13 +69,4 @@ If you need to protect AJAX calls beside page loads you need to add the below Ja
 
 
 ## Getting started
-Click a link below to navigate to relevant repository to get started:
-
-- [ASP.NET (IIS)](https://github.com/queueit/KnownUser.V3.ASPNET)
-- [ASP.NET Core (IIS, Kestrel)](https://github.com/queueit/KnownUser.V3.ASPNETCORE)
-- [Java (Tomcat, GlassFish or other Servlet compatible web server)](https://github.com/queueit/KnownUser.V3.JAVA)
-- [PHP](https://github.com/queueit/KnownUser.V3.PHP)
-- [Lua (Apache, NGINX)](https://github.com/queueit/KnownUser.V3.Lua)
-- [Ruby (Rails)](https://github.com/queueit/KnownUser.V3.RubyOnRails)
-- [Python (Django)](https://github.com/queueit/KnownUser.V3.Python)
-- [JavaScript (Node.js/Express)](https://github.com/queueit/KnownUser.V3.Javascript)
+Reach out to support@queue-it.com to get the latest relevant repository and get started.
