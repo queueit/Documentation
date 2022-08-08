@@ -35,9 +35,4 @@ If you need to protect AJAX calls beside page loads you need to add the below Ja
 ```
 
 ## Getting started
-Click a link below to navigate to relevant repository to get started:
-
-- [Akamai](https://github.com/queueit/KnownUser.V3.Akamai)
-- [Cloudflare](https://github.com/queueit/KnownUser.V3.Cloudflare)
-- [Cloudfront](https://github.com/queueit/KnownUser.V3.Cloudfront)
-- [Fastly](https://github.com/queueit/KnownUser.V3.Fastly)
+Reach out to support@queue-it.com to get the latest relevant repository and get started.
